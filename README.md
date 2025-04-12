@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This is an unmaintained fork of [`cbor2`](https://github.com/hildjj/cbor2/) to include a low-level sequence decoder. Mainly to enable testing of https://github.com/concordancejs/concordance/pull/85.
+
 # cbor2
 
 Encode and parse data in the Concise Binary Object Representation (CBOR) data

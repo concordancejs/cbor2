@@ -1,6 +1,6 @@
 {
-  "name": "cbor2",
-  "version": "1.12.0",
+  "name": "@concordance/cbor2",
+  "version": "0.0.0",
   "description": "Encode and parse data in the Concise Binary Object Representation (CBOR) data format (RFC8949).",
   "exports": {
     ".": "./lib/index.js",
@@ -20,11 +20,6 @@
   ],
   "type": "module",
   "types": "./lib/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/hildjj/cbor2.git"
-  },
-  "homepage": "https://github.com/hildjj/cbor2",
   "scripts": {
     "clean": "rimraf lib coverage docs src/version.ts",
     "docs": "typedoc && cd web && npm run build",
